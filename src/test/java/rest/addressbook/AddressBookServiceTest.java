@@ -456,7 +456,7 @@ public class AddressBookServiceTest {
 		response = client.target("http://localhost:8282/contacts/person/3")
 				.request(MediaType.APPLICATION_JSON).get();
 		assertEquals(404, response.getStatus());
-		
+		 
 		
 		System.out.println();
 	}
